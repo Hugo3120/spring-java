@@ -11,8 +11,8 @@ public class Filme {
         this.duracaoEmMinutos = getDuracaoEmMinutos();
         this.anoLancamento = dados.ano();
         this.genero = dados.genero();
-
     }
+
 
     @Override
     public String toString() {
